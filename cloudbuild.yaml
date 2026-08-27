@@ -1,0 +1,10 @@
+steps:
+  - name: 'gcr.io/k8s-skaffold/pack'
+    args:
+      - build
+      - 'asia-southeast1-docker.pkg.dev/auton-dh/cloud-run-source-deploy/d-pay-web-app/d-pay-web-app'
+      - '--builder=gcr.io/buildpacks/builder'
+      - '--env=PNPM_CONFIG_FROZEN_LOCKFILE=false'
+      - '--path=.'
+    env:
+      - 'PNPM_CONFIG_FROZEN_LOCKFILE=false'
