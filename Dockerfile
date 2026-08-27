@@ -47,9 +47,9 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
 USER nextjs
 
-# Cloud Run uses PORT env var (default 8080); Next.js listens on PORT
-ENV PORT=8080
+# Cloud Run uses PORT env var - Next.js listens on PORT
+ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
-EXPOSE 8080
+EXPOSE 3000
 
 CMD ["node", "server.js"]

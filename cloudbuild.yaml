@@ -31,7 +31,7 @@ steps:
       - 'managed'
       - '--allow-unauthenticated'
       - '--port'
-      - '8080'
+      - '3000'                    # 👈 මෙතන 3000 දාන්න
 
 images:
   - 'asia-southeast1-docker.pkg.dev/auton-dh/cloud-run-source-deploy/d-pay-web-app/d-pay-web-app:$COMMIT_SHA'
