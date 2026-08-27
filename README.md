@@ -7,6 +7,20 @@
 [![Axios](https://img.shields.io/badge/Axios-1.x-purple.svg)](https://axios-http.com/)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED.svg)](https://www.docker.com/)
 
+ ---
+
+## 🎥 Project Demonstration VIDEO & GCP Configuration VIDEO
+
+Click the image below to watch the full project demonstration. This video showcases the execution of the D-Pay microservices and provides a detailed walkthrough of the internal configurations on Google Cloud Platform (GCP).
+
+## 🔗 Quick Links
+
+|                                               🎥 **Video Demo**                                                |
+|:--------------------------------------------------------------------------------------------------------------:|
+| [▶ Watch on Google Drive](https://drive.google.com/file/d/1NDpEqigfrObE7qfIt4ZVdgn3tiRLsIk-/view?usp=drive_link) |
+
+[![D-Pay Project Demonstration Video](img.png)](https://drive.google.com/file/d/1NDpEqigfrObE7qfIt4ZVdgn3tiRLsIk-/view?usp=drive_link)
+
 The **D-Pay Web Frontend** is a modern, ultra-premium Single Page Application (SPA) built for the D-Pay Point-of-Sale & Business Management System. Developed on **Next.js 16 (App Router)** and **React 19**, it communicates with backend microservices via the Spring Cloud API Gateway. The interface features a full dark-mode aesthetic, fluid animations, and a responsive sidebar layout designed for real-world retail and business environments.
 
 ---
