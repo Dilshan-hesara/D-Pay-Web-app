@@ -9,7 +9,6 @@
 
 The **D-Pay Web Frontend** is a modern, ultra-premium Single Page Application (SPA) built for the D-Pay Point-of-Sale & Business Management System. Developed on **Next.js 16 (App Router)** and **React 19**, it communicates with backend microservices via the Spring Cloud API Gateway. The interface features a full dark-mode aesthetic, fluid animations, and a responsive sidebar layout designed for real-world retail and business environments.
 
-
 ---
 
 ## 🌟 Features & Pages
